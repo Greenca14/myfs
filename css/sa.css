@@ -1,0 +1,38 @@
+body
+{
+    background: linear-gradient(130.92deg, rgba(198, 87, 87, 0.8) 19.71%, rgba(198, 87, 87, 0.417281) 45.72%, rgba(198, 87, 87, 0) 53.94%),linear-gradient(242.53deg, #00E0FF -0.16%, rgba(198, 87, 87, 0.521601) 84.74%);
+}
+form
+{
+    border: 5px #ea00ff67;
+    border-style: double;
+    background: rgba(128, 128, 128, 0.53);
+    position: absolute;
+    top: 300px;
+    left: 565px;
+
+}
+#hr
+{
+    color: #ea00ffb0;
+}
+#aa
+{
+    position: absolute;
+    left: 110px;
+}
+.invise
+{
+    display: none;
+}
+.zx
+{
+    position: absolute;
+    width: auto;
+    height: auto;
+    left: 20px;
+    top: 22px;
+    background-color:#2f00ff88;
+    border: 3px #00ffff;
+    border-style: solid;
+}

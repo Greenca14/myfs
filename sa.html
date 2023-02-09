@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="rus">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/sa.css">
+    <script src="#" defer></script>
+    <title>Регистрация</title>
+</head>
+<body>
+    <form class="ab" action="sas.php" method="post">
+      <b id="aa">
+      Регистрация 
+      </b>
+        <p>
+          <label>Логин</label>
+          <input type="text" id="log" name="login" required pattern="[A-Za-zА-Яа-яЁё]{3,}" placeholder="Ввод без цифр">
+        </p>
+        <p>
+          <label>Пароль</label>
+          <input type="password" id="pas" name="passwor"  required placeholder="Пароль">
+        </p>
+        <p>
+          <label>Подтвердите пароль</label>
+          <input type="password" required placeholder="Подтвердите пароль">
+        </p>
+        <p>
+            <label>Ваш пол</label>
+            <label>
+              <input type="radio" id="m"  name="pol">
+              Мужской
+            </label>
+            <label>
+              <input type="radio" id="j" name="pol1">
+              Женский
+            </label>
+        </p>
+        <p>
+          <label>
+            <input type="checkbox" name="terms" required>
+            Я согласен с <a href="https://vk.com/distressedbread" id="hr">условиями использования(Добавить в друзья)</a>
+          </label>
+        </p>
+        <p>
+          <button>
+            Зарегистрироваться
+          </button>
+          <input type="reset" value="Сброс">
+        </p>
+      </form>
+      <div class="invise zx">
+        <p class="as"></p>
+      </div>
+</body>
+</html>
