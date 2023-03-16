@@ -3,9 +3,110 @@
 <head>
     <meta charset="UTF-8">
     <title>task4</title>
+    <style>
+         div {
+            background-color: grey;/*серый фон для того чтобы белый было видно*/
+            text-align: center;
+            position: absolute;
+            width: 50%;
+            height: 100%;
+            left: 0px;
+            top: 0px;
+        }
+        #a {
+            background-color: #0072CE;
+            position: absolute;
+            width: 40%;
+            height: 10%;
+            left: 25%;
+            top: 40%;
+        }
+        #b {
+            background-color: black;
+            position: absolute;
+            width: 40%;
+            height: 10%;
+            left: 25%;
+            top: 50%;
+        }
+        #c {
+            background-color: white;
+            position: absolute;
+            width: 40%;
+            height: 10%;
+            left: 25%;
+            top: 60%;
+        }
+        #name1 {
+            position: absolute;
+            left: 37.5%;
+            top: 70%;
+        }
+         #flag2{
+             background-color: black;
+             width:20%;
+             height:30%;
+             position: absolute;
+             left: 65%;
+             top: 40%;
+         }
+         #flag2_2{
+             background-color: #e43e2c;
+             width:82%;
+             height:40%;
+             margin-left:18%;
+             position: absolute;
+             top: 0%;
+         }
+         #flag2_2+div{
+             background-color: #0c1e8c;
+             width:82%;
+             height:40%;
+             margin-left:18%;
+             position: absolute;
+             top: 60%;
+         }
+         #flag2_3 {
+             clip-path: polygon(18% 0, 41% 40%, 100% 40%, 100% 60%, 41% 60%, 18% 100%, 0 100%, 30% 50%, 0 0);
+             position: absolute;
+             background-color: white;
+             width:100%;
+             height:100%;
+         }
+         #flag2_4{
+             clip-path: polygon(0 10%, 0 0, 15% 0, 40% 42%, 100% 42%, 100% 58%, 40% 58%, 15% 100%, 0 100%, 0 90%, 27% 50%);
+             position: absolute;
+             background-color: #047a5c;
+             width: 100%;
+             height: 100%;
+         }
+         #flag2_5{
+             clip-path: polygon(0 10%, 45% 50%, 0 90%, 0 80%, 35% 50%, 0 20%);
+             position: absolute;
+             background-color: #fcb214;
+             width: 60%;
+         }
+         #name2 {
+             position: absolute;
+             left: 5%;
+             top: 100%;
+         }
+    </style>
 </head>
 <body>
-    <div> 123</div>
-
+    <div class="a">
+        <p id="a"> </p>
+        <p id="b"> </p>
+        <p id="c"> </p>
+        <h1 id="name1">Эстония</h1>
+    </div>
+    <div id="flag2">
+        <div id="flag2_2"></div>
+        <div></div>
+        <div id="flag2_3"></div>
+        <div id="flag2_4"></div>
+        <div id="flag2_5"></div>
+        <h2 id="name2">Южно-Африканская Республика</h2>
+    </div>
 </body>
 </html>
